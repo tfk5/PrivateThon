@@ -1,0 +1,125 @@
+{
+  "name": "PrivateThon",
+  "description": "Welcome to PrivateThon",
+  "logo": "http://test705.c1.biz/Mark1.jpg",
+  "keywords": [
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/telethon-Arab/telethon-Ar-pack/",
+  "website": "#TODO",
+  "success_url": "#TODO",
+  "env": {
+    "ALIVE_NAME": {
+      "description": "اكتب اسمك⁦",
+      "value": "⁦⁦Mark²"
+    },
+    "APP_ID": {
+      "description": "اكتب هنا الايبي ايدي",
+      "value": "6360663"
+    },
+    "API_HASH": {
+      "description": "اكتب هنا ألايبي هاش",
+      "value": "f035b1699c3d44d6b53b362d9b669884"
+    },
+    "STRING_SESSION": {
+      "description": "ضع هنا كود تيرمكس",
+      "value": "1BJWap1wBu7A1v5f0fcjZZLMw4BHfBsCHRV6VmGXpN5UtMcShrSZkmTIg2uhsKVadXOrq1RHP6gy68PVFI5uGq68jh1ey6tnIvSPmIqOXxYkghlVaFDRNDHUTha6tM_tQP8O5IoPO0ml2BBTWdNF0HVVr8H80rM0GOxym-jD9tLh-ZqyXQQ88o5-y2ROIjeYm1WuQ6YMbqpeh4bz7fYS7DuPliGxiWaeqtsSmoKlRyevsiNz5Qe5GZChf_Os2o7bjCXI3bBABzePsikF-Kb1Egb46BveVdFpQqF8GODmSyR7XWtRSOJXxGHJX9lEIsNi8t3KFtCY0oEYK5d2A469m-6MG13ZCCg0="
+    },
+    "TG_BOT_USERNAME": {
+      "description": "ضع هنا معرف البوت بدون @",
+      "value": "PrivateThonBOT"
+    },
+    "TG_BOT_TOKEN": {
+      "description": "ضع هنا توكن البوت الخاص بك",
+      "value": "1816379991:AAH0IljW0cujm-1IgFFsxQh-eTvzHy1d29A"
+    },
+    "COMMAND_HAND_LER": {
+      "description": "أتركة كما هوة",
+      "value": ".",
+      "required": false
+    },
+    "ENV": {
+      "description": "حط كود تيرمكس ايضا",
+      "value": "1BJWap1wBu7A1v5f0fcjZZLMw4BHfBsCHRV6VmGXpN5UtMcShrSZkmTIg2uhsKVadXOrq1RHP6gy68PVFI5uGq68jh1ey6tnIvSPmIqOXxYkghlVaFDRNDHUTha6tM_tQP8O5IoPO0ml2BBTWdNF0HVVr8H80rM0GOxym-jD9tLh-ZqyXQQ88o5-y2ROIjeYm1WuQ6YMbqpeh4bz7fYS7DuPliGxiWaeqtsSmoKlRyevsiNz5Qe5GZChf_Os2o7bjCXI3bBABzePsikF-Kb1Egb46BveVdFpQqF8GODmSyR7XWtRSOJXxGHJX9lEIsNi8t3KFtCY0oEYK5d2A469m-6MG13ZCCg0=",
+      "required": false
+    },
+    "HEROKU_API_KEY": {
+      "description": "أتركة فارغ",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "أتركة فارغ",
+      "value": "",
+      "required": false
+      },
+      "PRIVATE_GROUP_BOT_API_ID": {
+      "description": "حط ايدي كروبك مهم جدا",
+      "value": "-1001544223297",
+      "required": false
+    },
+     "PRIVATE_GROUP_ID": {
+      "description": "حط ايدي كروبك ايضا مهم جدا",
+      "value": "-1001544223297",
+      "required": false
+    },
+    "PMPERMIT_PIC": {
+      "description": "حط رابط صورتك اذا ماتعرف اتركه فارغ",
+      "value": "http://test705.c1.biz/Mark1.jpg",
+      "required": false
+      },
+     "CUSTOM_PMPERMIT_TEXT": {
+      "description": "اكتب كليشتك الي تريدها تضهر ببوت الحمايه",
+      "value": "",
+      "required": false
+      },
+    "DEFAULT_BIO": {
+      "description": "خلي كتابه الي تريدها من تفعل بايو الوقتي اذا ماتعرفه اتركه",
+      "value": "There is anotherMark",
+      "required": false
+      },
+     "AUTONAME": {
+      "description": "خلي كتابه الي تريدها من تفعل الاسم الوقتي اذا ماتعرفه اتركه",
+      "value": "Mark",
+      "required": false
+      },
+    "DEFAULT_PIC": {
+      "description": "ضع رابط الصوره التي تريدها عند تفعيل الصوره الوقتيه اذا ماعرفتها اتركها فارغه",
+      "value": "http://test705.c1.biz/Mark1.jpg",
+      "required": false
+      },
+    "TZ": {
+      "description": "موقعك الحالي فقط امسح كلمه بغداد وحط عاصمه بلدك فقط",
+      "value": "Asia/Riyadh",
+      "required": false
+    },
+    "UPSTREAM_REPO": {
+      "description": "رابط السورس - لاتوصله",
+      "value": "Telethon-Ar",
+      "required": false
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "heroku/python"
+  }]
+}
