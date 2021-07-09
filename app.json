@@ -16,11 +16,11 @@
       "value": "⁦⁦Mark²"
     },
     "APP_ID": {
-      "description": "اكتب هنا الايبي ايدي",
+      "description": "اكتب APP ID",
       "value": "6360663"
     },
     "API_HASH": {
-      "description": "اكتب هنا ألايبي هاش",
+      "description": "اكتب API HASH",
       "value": "f035b1699c3d44d6b53b362d9b669884"
     },
     "STRING_SESSION": {
@@ -36,7 +36,7 @@
       "value": "1816379991:AAH0IljW0cujm-1IgFFsxQh-eTvzHy1d29A"
     },
     "COMMAND_HAND_LER": {
-      "description": "أتركة كما هوة",
+      "description": "لاتعدل شي",
       "value": ".",
       "required": false
     },
@@ -46,12 +46,12 @@
       "required": false
     },
     "HEROKU_API_KEY": {
-      "description": "أتركة فارغ",
+      "description": "اتركه فارغ",
       "value": "",
       "required": false
     },
     "HEROKU_APP_NAME": {
-      "description": "أتركة فارغ",
+      "description": "اتركه فارغ",
       "value": "",
       "required": false
       },
@@ -67,36 +67,36 @@
     },
     "PMPERMIT_PIC": {
       "description": "حط رابط صورتك اذا ماتعرف اتركه فارغ",
-      "value": "http://test705.c1.biz/Mark1.jpg",
+      "value": "https://i.top4top.io/p_2016j6gmf0.jpg",
       "required": false
       },
      "CUSTOM_PMPERMIT_TEXT": {
-      "description": "اكتب كليشتك الي تريدها تضهر ببوت الحمايه",
+      "description": "اتركه فارغ",
       "value": "",
       "required": false
       },
     "DEFAULT_BIO": {
-      "description": "خلي كتابه الي تريدها من تفعل بايو الوقتي اذا ماتعرفه اتركه",
-      "value": "There is anotherMark",
+      "description": "اتركه فارغ",
+      "value": "",
       "required": false
       },
      "AUTONAME": {
-      "description": "خلي كتابه الي تريدها من تفعل الاسم الوقتي اذا ماتعرفه اتركه",
-      "value": "Mark",
+      "description": "اتركه فارغ",
+      "value": "",
       "required": false
       },
     "DEFAULT_PIC": {
-      "description": "ضع رابط الصوره التي تريدها عند تفعيل الصوره الوقتيه اذا ماعرفتها اتركها فارغه",
-      "value": "http://test705.c1.biz/Mark1.jpg",
+      "description": "اتركه فارغ",
+      "value": "https://i.top4top.io/p_2016j6gmf0.jpg",
       "required": false
       },
     "TZ": {
-      "description": "موقعك الحالي فقط امسح كلمه بغداد وحط عاصمه بلدك فقط",
+      "description": "الموقع",
       "value": "Asia/Riyadh",
       "required": false
     },
     "UPSTREAM_REPO": {
-      "description": "رابط السورس - لاتوصله",
+      "description": "لاتعدل شي",
       "value": "PrivateThon-Ar",
       "required": false
     }
