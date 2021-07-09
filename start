@@ -5,7 +5,7 @@ _get_ziplink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $UPSTREAM_REPO == "Telethon-Ar" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL3RmazUvVGVsZXRob24tQXIvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL3RmazUvUHJpdmF0ZVRob24tQXIvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         if [[ $UPSTREAM_REPO_BRANCH ]]
@@ -15,7 +15,7 @@ _get_ziplink () {
             echo "${UPSTREAM_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL3RmazUvVGVsZXRob24tQXIvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL3RmazUvUHJpdmF0ZVRob24tQXIvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
     fi
 }
 
@@ -25,12 +25,12 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $UPSTREAM_REPO == "Telethon-Ar" ]]
     then
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL3RmazUvVGVsZXRob24tQXI=" | base64 -d`
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL3RmazUvUHJpdmF0ZVRob24tQXI=" | base64 -d`
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         rlink=`echo "${UPSTREAM_REPO}"`
     else
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL3RmazUvVGVsZXRob24tQXI=" | base64 -d`
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL3RmazUvUHJpdmF0ZVRob24tQXI=" | base64 -d`
     fi
     echo "$rlink"
 }
@@ -84,7 +84,7 @@ _set_bot () {
     _run_cat_git
     python3 ../setup/updater.py ../requirements.txt requirements.txt
     chmod -R 755 bin
-    echo "- Running PrivateThon"
+    echo " Running PrivateThon"
 
     python3 -m userbot
 }
